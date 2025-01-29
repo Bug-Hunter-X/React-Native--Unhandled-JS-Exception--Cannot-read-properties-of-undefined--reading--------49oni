@@ -1,0 +1,1 @@
+This error occurs when you try to access a state variable or a prop before it has been assigned a value. This often happens when a component renders before its data has fully loaded or when asynchronous operations are involved.  For example, consider accessing `this.state.user` in `componentDidMount` before a network request to fetch user data is complete.
